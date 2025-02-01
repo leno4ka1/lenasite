@@ -1,0 +1,88 @@
+header {
+    background-color: #AA3939;
+    border-radius: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#logo {
+    margin: 10px;
+}
+
+header a {
+    text-decoration: none;
+    background-color: #801616;
+    color: black;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.color {
+    color: black;
+    border: 7px solid #dbc766;
+    border-radius: 15px;
+    background-color: #f0ca62;
+}
+
+footer {
+    background-color: #ede07b;
+}
+
+nav {
+    background-color: #801616;
+    border-radius: 10px;
+    border: 7px solid #D46A6A;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.FantasticParty {
+    color: lightbrown;
+    border: 7px solid #6B604B;
+    border-radius: 15px;
+    background-color: #FFF5E1;
+}
+
+.tobar {
+    background-color: #6B604B;
+    border-radius: 11px;
+}
+
+.pop {
+    color: white;
+}
+
+.pol {
+    color: #FFAAAA;
+}
+
+.image-container {
+    display: flex;
+}
+
+.zoomable {
+    transition: transform 0.3s;
+    margin: 10px;
+    width: 200px; 
+    height: auto; }
+
+.zoomable:hover {
+    transform: scale(0.9);
+}
+
+.i{
+    color: #2b030b;
+    background-color: #D46A6A;
+    border-radius: 10px;
+}
+
+html{
+    background-color:#b03e54;
+}
