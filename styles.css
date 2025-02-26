@@ -1,54 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffe6f2;
+    font-family: 'Arial', sans-serif;
+    background: #fff;
     color: #333;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
-header {
-    background: linear-gradient(to right, #ff69b4, #ff1493);
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ff69b4;
     color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
     font-weight: bold;
-    border-bottom: 5px solid #ff1493;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ff85a2, #ff4081);
+    color: white;
 }
-.card {
-    background: #ffc0cb;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 20, 147, 0.3);
-    margin-bottom: 20px;
-    transition: transform 0.3s ease-in-out;
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
 }
-.card:hover {
-    transform: scale(1.05);
-    background: #ffb6c1;
+.hero .btn {
+    display: inline-block;
+    background: white;
+    color: #ff4081;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
 }
-.image-container {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    transition: background-image 0.5s ease-in-out;
+.hero .btn:hover {
+    background: #ffebee;
 }
-.image-container:hover {
-    background-image: url('poisoning_alt.jpg'); /* змінити зображення при наведенні */
+.section {
+    padding: 50px;
+    text-align: center;
 }
 footer {
-    background: #ff1493;
-    color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    border-top: 5px solid #ff69b4;
+    padding: 20px;
+    background: #ff4081;
+    color: white;
 }
