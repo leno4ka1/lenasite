@@ -1,88 +1,54 @@
-header {
-    background-color: #AA3939;
-    border-radius: 10px;
-}
-
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-
-#logo {
-    margin: 10px;
-}
-
-header a {
-    text-decoration: none;
-    background-color: #801616;
-    color: black;
-    padding: 0px 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.color {
-    color: black;
-    border: 7px solid #dbc766;
-    border-radius: 15px;
-    background-color: #f0ca62;
-}
-
-footer {
-    background-color: #ede07b;
-}
-
-nav {
-    background-color: #801616;
-    border-radius: 10px;
-    border: 7px solid #D46A6A;
-    color: aliceblue;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
-.FantasticParty {
-    color: lightbrown;
-    border: 7px solid #6B604B;
-    border-radius: 15px;
-    background-color: #FFF5E1;
-}
-
-.tobar {
-    background-color: #6B604B;
-    border-radius: 11px;
-}
-
-.pop {
+header {
+    background: linear-gradient(to right, #ff69b4, #ff1493);
     color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid #ff1493;
 }
-
-.pol {
-    color: #FFAAAA;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
 }
-
-.image-container {
-    display: flex;
-}
-
-.zoomable {
-    transition: transform 0.3s;
-    margin: 10px;
-    width: 200px; 
-    height: auto; }
-
-.zoomable:hover {
-    transform: scale(0.9);
-}
-
-.i{
-    color: #2b030b;
-    background-color: #D46A6A;
+.card {
+    background: #ffc0cb;
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.3);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
-
-html{
-    background-color:#b03e54;
+.card:hover {
+    transform: scale(1.05);
+    background: #ffb6c1;
+}
+.image-container {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: background-image 0.5s ease-in-out;
+}
+.image-container:hover {
+    background-image: url('poisoning_alt.jpg'); /* змінити зображення при наведенні */
+}
+footer {
+    background: #ff1493;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 5px solid #ff69b4;
 }
